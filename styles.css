@@ -1,1 +1,14 @@
-body {background: gray;}
+body {background: orange;}
+
+.pics {
+  padding: 30px;
+  margin: 40px;
+  border: 20px;
+  border-color: green;
+  border-style: solid;
+}
+
+#quote {
+  border: 30px;
+  width: 200px;
+}
