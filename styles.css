@@ -1,4 +1,4 @@
-body {background: orange;}
+body {background: white;}
 
 .pics {
   padding: 30px;
@@ -11,4 +11,12 @@ body {background: orange;}
 #quote {
   border: 30px;
   width: 200px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
 }
