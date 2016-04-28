@@ -1,22 +1,65 @@
-body {background: white;}
+body {
+  background: white;
+  font-family: Verdana;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+h1 {
+  background-image: url(images/ice-background.jpg);
+  min-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border: 0px;
+  text-shadow: 2px 2px white;
+}
 .pics {
-  padding: 30px;
-  margin: 40px;
+  padding: 5px;
+  margin: 5px;
   border: 20px;
   border-color: green;
   border-style: solid;
 }
 
 #quote {
+  font-family: "Arial Black";
   border: 30px;
-  width: 200px;
+  min-width: 300px
 }
 
+fieldset {
+  background-color: cyan;
+}
 a:visited {
     color: purple;
 }
 
 a:hover {
     color: red;
+}
+
+footer {
+  text-align: center;
+  text-shadow: 1px 1px gray;
+}
+
+@media screen and (max-width: 550px) {
+   h1 {
+    font-size: 1.2em;
+    vertical-align: middle;
+    min-height: 50px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pics {
+    width: 85%;
+    height: auto;
+  }
 }
